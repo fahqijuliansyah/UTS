@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Data Pemantauan Covid19</title>
+</head>
+<body>
+<h1>Data Pemantauan Covid19</h1>
+<form action = "db.php" method = "post">
+<table width = "30%" cellpadding="10" border = "0">
+<tr>
+<td>Nama Wilayah</td>
+<td>:</td>
+<td>
+<select name = "nama_wilayah" style = "width : 172px">
+<option value = "dki">DKI Jakarta</option>
+<option value = "jabar">Jawa Barat</option>
+<option value = "banten">Banten</option>
+<option value = "jateng">Jawa Tengah</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Jumlah Positif</td>
+<td>:</td>
+<td><input type = "text" name = "j_positif"></td>
+</tr>
+
+<tr>
+<td>Jumlah Dirawat</td>
+<td>:</td>
+<td><input type = "text" name = "j_rawat"></td>
+</tr>
+
+<tr>
+<td>Jumlah Sembuh</td>
+<td>:</td>
+<td><input type = "text" name = "j_sembuh"></td>
+</tr>
+
+<tr>
+<td>Jumlah Meninggal</td>
+<td>:</td>
+<td><input type = "text" name = "j_meninggal"></td>
+</tr>
+
+<tr>
+<td>Nama Operator</td>
+<td>:</td>
+<td><input type = "text" name = "n_operator"></td>
+</tr>
+
+<tr>
+<td>NIM Mahasiswa</td>
+<td>:</td>
+<td><input type = "text" name = "nim"></td>
+</tr>
+
+<tr>
+<td colspan="5"><input name="simpan" type="submit" value="Simpan" class="button"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
